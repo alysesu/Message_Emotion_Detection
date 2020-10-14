@@ -2,7 +2,7 @@
 #### Capstone Project by Alyse Su
 General Assembly DSI-16
 
-<img src="../data/image/replika.png" style="width: 700px;"/>
+<img src="data/image/replika.png" style="width: 700px;"/>
 
 
 Multi-class sentiment analysis in the social networks and microblogging websites have been a hot topic of study in recent years due to the rapid growth of these platforms and the plethora of insights that could be derived from them. Many studies over the years have attempted to build sentiment prediction models with data from these platforms. However, there still remains many challenges that researchers face: informal use of languages, abbreviations, sarcasm, dual meanings, local slangs and [stretched words](https://www.wired.com/story/whoooaaa-duuuuude-stretch-words/). (ie. 'heeeeeeeeeey!','terrrrrrrrible!').
@@ -56,11 +56,11 @@ The team has pulled the angry tweets from Twitter using the Twitter API. They ha
 Through diving into the tweets of the 13 original labels of emotions provided by the main dataset, we have recategorised them into 5 main emotion classes: Negativity, Contempt, Neutral, Optimistic and Anticipation.
 
 Our model performed moderately well at classifying our test tweets based on quantitative metrics: Accuracy, F1, Precision and Recall. Our best performing model that was eventually selected for prediction purposes is our Logistic regression, which performed well in all four metrics compared to the other two models that were shortlisted for modelling.
-![summary](../data/image/model_summary.png)
+![summary](data/image/model_summary.png)
 
 However, we note that the scores are not the biggest indicator of model success. We conducted deep analysis into our sampled tweets to understand the nature of misclassification, as well as test it with casual chat conversations to see our affinity with our models' predicted outcome.
 
-![confusion](../data/image/confusion.png)
+![confusion](data/image/confusion.png)
 **Key Model Findings**
 - Most of our misclassified tweets and casual text conversations were due to the mislabelling of data by manual annotators. This eventually diluted our model's performance.
     - In fact, for some of the misclassified messages, we instead, lean more towards model's predicted emotion class rather than the manual annotators' labels. However, we understand that understanding tonalities are a subjective matter altogether.
