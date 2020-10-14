@@ -76,7 +76,7 @@ However, we note that the scores are not the biggest indicator of model success.
 - In general, our model has performed really well for "Optimistic","Neutral","Anticipation" and "Contempt", as we observe from sampled data.
 
 # Content
-- Notebook 1: Data Cleaning and Preprocessing
+- [Notebook 1: Data Cleaning and Preprocessing](https://github.com/alysesu/Message_Emotion_Detection/blob/master/codes/Notebook%201%20-%20Tweet%20Data%20Cleaning%20and%20Proprocessing.ipynb)
   1. Initial Data Exploration
   2. Preprocessing Text
   3. Manually Replacing Misclassified Sentiments
@@ -89,7 +89,7 @@ However, we note that the scores are not the biggest indicator of model success.
   4. Additional Data
     - Bringing 2nd dataset
     - Integration of 2nd dataset
-- Notebook 2: Modelling and Evaluation
+- [Notebook 2: Modelling and Evaluation](https://github.com/alysesu/Message_Emotion_Detection/blob/master/codes/Notebook%202%20-%20Modelling%20for%20Emotion%20Classification.ipynb)
   1. Understanding Features
     - Mutual Information Score
     - Effect of Punctuations
@@ -100,7 +100,7 @@ However, we note that the scores are not the biggest indicator of model success.
   3. Model Evaluation
   4. Understanding Model Results
   5. Understanding Misclassification
-- Notebook 3: Fitting Model into Casual Chat Conversations
+- [Notebook 3: Fitting Model into Casual Chat Conversations](https://github.com/alysesu/Message_Emotion_Detection/blob/master/codes/Notebook%203%20-%20Model%20Testing%20on%20Actual%20Conversations.ipynb)
   1. Preparing Testing Data
       - Creating infrastructure to import and clean WhatsApp and Telegram data
   2. Data Visualisation of Chat Conversations
@@ -108,7 +108,7 @@ However, we note that the scores are not the biggest indicator of model success.
   4. Visualisation of Predicted Results
   5. Evaluation of Predicted Emotions
   6. Summary and Conclusion
-  
+
   **Key Disclaimer**: These conversations were heavily manipulated for testing purposes. Dates, time, content and users are all fictional.
   We have approached the problem this way in order to maintain privacy as well as to ensure quality presentation of our data, findings and model predictions.
 
