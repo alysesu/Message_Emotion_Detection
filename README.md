@@ -77,8 +77,40 @@ However, we note that the scores are not the biggest indicator of model success.
 
 # Content
 - Notebook 1: Data Cleaning and Preprocessing
+  1. Initial Data Exploration
+  2. Preprocessing Text
+  3. Manually Replacing Misclassified Sentiments
+  4. Feature Extraction
+    - Extracting Punctuations: Exclamation Marks, Question Marks, Ellipsis
+  5. Language Translation
+    - Filtering non-English Tweets
+  6. Grouping Emotions
+    - Reclassifying Labels
+  4. Additional Data
+    - Bringing 2nd dataset
+    - Integration of 2nd dataset
 - Notebook 2: Modelling and Evaluation
+  1. Understanding Features
+    - Mutual Information Score
+    - Effect of Punctuations
+  2. Modelling
+    - Train test split
+    - Gridsearch
+    - Model Tuning
+  3. Model Evaluation
+  4. Understanding Model Results
+  5. Understanding Misclassification
 - Notebook 3: Fitting Model into Casual Chat Conversations
+  1. Preparing Testing Data
+      - Creating infrastructure to import and clean WhatsApp and Telegram data
+  2. Data Visualisation of Chat Conversations
+  3. Fitting Model on Chat Conversations
+  4. Visualisation of Predicted Results
+  5. Evaluation of Predicted Emotions
+  6. Summary and Conclusion
+  
+  **Key Disclaimer**: These conversations were heavily manipulated for testing purposes. Dates, time, content and users are all fictional.
+  We have approached the problem this way in order to maintain privacy as well as to ensure quality presentation of our data, findings and model predictions.
 
 # Limitations
 #### Overall:
