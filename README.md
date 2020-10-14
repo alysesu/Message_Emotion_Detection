@@ -81,28 +81,30 @@ However, we note that the scores are not the biggest indicator of model success.
   2. Preprocessing Text
   3. Manually Replacing Misclassified Sentiments
   4. Feature Extraction
-    - Extracting Punctuations: Exclamation Marks, Question Marks, Ellipsis
+      - Extracting Punctuations: Exclamation Marks, Question Marks, Ellipsis
   5. Language Translation
-    - Filtering non-English Tweets
+      - Filtering non-English Tweets
   6. Grouping Emotions
-    - Reclassifying Labels
-  4. Additional Data
-    - Bringing 2nd dataset
-    - Integration of 2nd dataset
+      - Reclassifying Labels
+  7. Additional Data
+      - Bringing 2nd dataset
+      - Integration of 2nd dataset
+
 - [Notebook 2: Modelling and Evaluation](https://github.com/alysesu/Message_Emotion_Detection/blob/master/codes/Notebook%202%20-%20Modelling%20for%20Emotion%20Classification.ipynb)
   1. Understanding Features
-    - Mutual Information Score
+      - Mutual Information Score
     - Effect of Punctuations
   2. Modelling
-    - Train test split
-    - Gridsearch
-    - Model Tuning
+      - Train test split
+      - Gridsearch
+      - Model Tuning
   3. Model Evaluation
   4. Understanding Model Results
   5. Understanding Misclassification
+
 - [Notebook 3: Fitting Model into Casual Chat Conversations](https://github.com/alysesu/Message_Emotion_Detection/blob/master/codes/Notebook%203%20-%20Model%20Testing%20on%20Actual%20Conversations.ipynb)
   1. Preparing Testing Data
-      - Creating infrastructure to import and clean WhatsApp and Telegram data
+        - Creating infrastructure to import and clean WhatsApp and Telegram data
   2. Data Visualisation of Chat Conversations
   3. Fitting Model on Chat Conversations
   4. Visualisation of Predicted Results
